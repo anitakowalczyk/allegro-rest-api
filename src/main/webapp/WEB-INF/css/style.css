@@ -1,0 +1,85 @@
+body {
+    font-family:  Courier New, monospace;
+    font-size: 16px;
+    background-color: #FFDFBF;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: white;
+}
+
+.allegroTitle {
+    color: #FF6F00;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.mainContainer {
+    margin-top: 30px;
+    width: 70%;
+    padding: 20px 0 30px 0 ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+tr {
+    width: 500px;
+    height: 50px;
+}
+
+.trsubs {
+    width: 500px;
+    height: 30px;
+}
+
+.tdsubs {
+    width: 150px;
+}
+
+.label {
+    width: 150px;
+}
+
+.input {
+    width: 450px;
+    height: 30px;
+}
+
+.title {
+    margin: 30px 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+.button {
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 8px 20px;
+    background-color: white;
+}
